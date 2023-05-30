@@ -30,7 +30,7 @@ This is where you will configure bot properties like the following:
 - Bot base-level permissions
 - Bot privacy settings + URL generator (adding to a server)
 
-Follow the [instructions from the Discord.js guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#setting-up-a-bot-application) for **setting up your bot** and **creating a bot token**.
+Follow the [instructions from the Discord.js guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#setting-up-a-bot-application) for setting up your bot and creating a bot token.
 
 Add the bot token to your `.env` file as `DISCORD_TOKEN`.
 
