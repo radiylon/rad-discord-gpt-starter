@@ -1,6 +1,6 @@
 # Rad Discord GPT Starter 🤠
 
-Basic starter repo for quickly spinning up a Discord bot that responds using an LLM via LangChain. Uses OpenAI's `gpt-3.5-turbo` to start but can easily be swapped to other supported LangChain models.
+Basic starter repo for quickly spinning up a Discord bot that responds using an LLM via DiscordJS + LangChain. Uses OpenAI's `gpt-3.5-turbo` model to start but can easily be swapped to other supported LangChain models.
 
 ## Usage 🐴
 
