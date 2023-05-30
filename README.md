@@ -1,8 +1,8 @@
-# 🤠 Rad Discord GPT Starter
+# Rad Discord GPT Starter 🤠
 
 Basic starter repo for quickly spinning up a Discord bot that responds using an LLM via LangChain. Uses OpenAI's `gpt-3.5-turbo` to start but can easily be swapped to other supported LangChain models.
 
-## 🐴 Usage
+## Usage 🐴
 
 ### 1. Installation
 - Clone down the repo
@@ -16,9 +16,11 @@ Basic starter repo for quickly spinning up a Discord bot that responds using an 
 
 In the next steps, we'll create a bot via the Discord Developer Portal to get our `DISCORD_TOKEN`.
 
-### 2. Create a Discord account (here)[https://discord.com/register]
+### 2. Create a Discord account [here](https://discord.com/register)
 
-### 3. Login to the Developer Portal (here)[https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications]
+If you already have an account, skip to the next step.
+
+### 3. Login to the Developer Portal [here](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications)
 
 This is where you will configure bot properties like the following:
 - Bot name
@@ -26,9 +28,9 @@ This is where you will configure bot properties like the following:
 - Bot base-level permissions
 - Bot privacy settings + URL generator (adding to a server)
 
-Follow the (instructions from the Discord.js guide)[https://discordjs.guide/preparations/setting-up-a-bot-application.html#setting-up-a-bot-application] for **setting up your bot** and **creating a bot token**.
+Follow the [instructions from the Discord.js guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#setting-up-a-bot-application) for **setting up your bot** and **creating a bot token**.
 
-Add the **bot token** to your `.env.` file.
+Add the **bot token** to your `.env` file.
 
 ### 4. Update the bot's Privileged Gateway Intents
 To get access to presence and message content, we need to enable a few settings. Under the "Bot" section, make sure that the following is toggled:
