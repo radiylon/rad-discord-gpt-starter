@@ -41,11 +41,13 @@ To get access to presence and message content, we need to enable a few settings.
 
 ### 5. Add the bot to your Discord server
 
-An easy way of adding your bot to your server is by URL. In the developer portal under "OAuth2" -> "URL Generator", mark the following checkboxes:
+Create a new server if you don't have one yet.
+
+Add the bot via by URL generation. In the developer portal under "OAuth2" -> "URL Generator", mark the following checkboxes:
 
 <img src="https://cdn.discordapp.com/attachments/909697628122513468/1113015879093977128/Screenshot_2023-05-30_at_01.07.39.png" style="width: 75%"><br>
 
-Copy + paste the URL generated at the bottom into a channel in your server. Click the URL, accept permissions, and add the bot.
+Copy + paste the URL generated at the bottom into any channel in your server. Click the URL, accept permissions, and add the bot.
 
 ### 6. Chat with the bot
 
