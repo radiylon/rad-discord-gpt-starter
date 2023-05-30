@@ -2,9 +2,9 @@ import {
   Client, ClientUser, Events, GatewayIntentBits,
 } from 'discord.js';
 import { OpenAI } from 'langchain/llms/openai';
-import config from '../config';
+import config from './config';
 
-const model = new OpenAI({ openAIApiKey: config.keys.OPENAI_API_KEY, temperature: 0.2 });
+const model = new OpenAI({ openAIApiKey: config.keys.OPENAI_API_KEY, temperature: 0.2, modelName: 'gpt-3.5-turbo' });
 
 const client = new Client({
   intents: [
@@ -19,7 +19,7 @@ let clientUser: ClientUser;
 client.once(Events.ClientReady, () => {
   clientUser = client.user!;
   clientUser.setActivity({
-    name: 'with haikus...',
+    name: 'a game...', // Playing a game...
   });
   console.log(`Logged in as ${clientUser.tag}!`);
 });
