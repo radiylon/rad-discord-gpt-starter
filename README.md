@@ -18,11 +18,11 @@ If you have an OpenAI account setup, you can get your organization ID [here](htt
 
 In the next steps, we'll create a bot via the Discord Developer Portal to get our `DISCORD_TOKEN`.
 
-### 2. Create a Discord account [here](https://discord.com/register)
+### 2. [Create](https://discord.com/register) a Discord account
 
 If you already have an account, skip to the next step.
 
-### 3. Login to the Developer Portal [here](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications)
+### 3. [Login](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications) to the Developer Portal
 
 This is where you will configure bot properties like the following:
 - Bot name
