@@ -49,9 +49,15 @@ Add the bot via by URL generation. In the developer portal under "OAuth2" -> "UR
 
 Copy + paste the URL generated at the bottom into any channel in your server. Click the URL, accept permissions, and add the bot.
 
-### 6. Chat with the bot
+### 6. Run the bot
 
-At this point, you should have a working Discord bot running locally! To chat, mention the bot with a message. The bot will return a generated response via a message reply.
+At this point, you should have everything setup to start the bot locally.
+
+Run `npm run dev`.
+
+### 7. Chat with the bot
+
+You should have a working Discord bot! To chat, mention the bot with a message. The bot will return a generated response via a message reply.
 
 Example: `@DiscordBot Hello! How are you?`
 
